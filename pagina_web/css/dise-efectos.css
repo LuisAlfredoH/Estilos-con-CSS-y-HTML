@@ -1,0 +1,14 @@
+.css-html, .css-html-js {
+	width: 100%;
+	padding: 20px;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+section {
+	font-family: 'Segoe UI';
+}
+
+article a {
+	font-weight: bold;
+}

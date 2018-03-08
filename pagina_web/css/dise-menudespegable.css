@@ -1,0 +1,57 @@
+.main .contenedor-servidores img {
+	width: 200px;
+	height: auto;
+}
+
+.contraseña {
+	text-align: center;
+	font-weight: bold;
+}
+
+.main .descripcion-efecto {
+	padding: 20px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.main .gif img {
+	width: 350px;
+
+}
+
+.contenido-servidores {
+	width: 100%;
+	padding: 0px 10px 20px 10px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.main .contenedor-servidores {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.contenido-servidores .gif {
+	text-align: center;
+}
+
+.gif p a {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 390px) {
+	.main .gif img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.comentarios-fb {
+	background: rgba(255,255,255,0.7);
+}
+
+/*CODIGO REALIZADO POR LUIS ALFREDO HUAMANI ALHUAY*/

@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8C8C8C;
+}
+
+/*Contenedor general*/
+.contenedor-index {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+/*Titulo*/
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+/*Contenedor del menu desplegable*/
+.header {
+    background: black;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+}
+
+/*Para quitar el estilo a las listas*/
+.header ul, .header li {
+    list-style: none;
+}
+
+/*Edición de las lista*/
+.menu li a{
+    background-color: black;
+    color: white;
+    /*10px de altura y 15px de ancho*/
+    padding: 15px 15px;
+    text-decoration: none;
+    /*Para ponerlos en bloque*/
+    display: block;
+}
+
+/*Al pasar el cursos por los bloques, se pintaran
+del siguiente color*/
+.menu li a:hover {
+    background-color: #434343;
+}
+
+/*Para colocar todos los bloques en una fila*/
+.menu > li {
+    float: left;
+}
+
+/*Para solucionar el problema del float*/
+.menu {
+    overflow: hidden;
+}
+
+/*Para que los submenus desaparezcan*/
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+
+/*Para que aparezcan los submenus cuando pase
+el cursos por los bloques*/
+.menu li:hover > ul {
+    display: block;
+}
+
+/*Cambiar el tipo de fuente*/
+.main {
+    font-family: 'Segoe UI';
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/*Relleno de 20px en las secciones de
+presentacion, objetivo y contacto*/
+.presentacion, .objetivo, .contacto {
+    padding: 20px;
+}
+
+/*Diseño de la seccion presentacion*/
+.presentacion {
+    width: 72%;
+    background-color: rgba(255,255,255,0.7);
+    float: left;
+}
+
+/*Diseño de la seccion objetivo*/
+.objetivo {
+    width: 28%;
+    background-color: white;
+    float: left;
+}
+
+/*Diseño de la seccion contacto*/
+.contacto {
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    color: white;
+    margin-top: 20px;
+}
+
+/*Diseño del pie de pagina*/
+.footer {
+    width: 100%;
+    padding: 20px;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Ajustar la iamgen al ancho de la seccion
+presentacion*/
+.presentacion img {
+    width: 100%;
+    height: auto;
+}
+
+/*Realizar la siguiente acción cuando la ventana
+alcance un ancho de 844px*/
+@media screen and (max-width: 844px) {
+    .presentacion, .objetivo {
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-index {
+        width: 100%;
+    }
+}
+
+/*Realizar la siguiente acción cuando la ventana
+alcance un ancho de 320px*/
+@media screen and (max-width: 320px) {
+    
+    .presentacion, .objetivo {
+        width: 100%
+    }
+
+}
+
+/*CODIGO REALIZADO POR LUIS ALFREDO HUAMANI ALHUAY*/

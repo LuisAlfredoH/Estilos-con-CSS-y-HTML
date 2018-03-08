@@ -1,0 +1,118 @@
+/*Para que todas las etiquetas de
+html (incluyendo el body) tengan
+las siguientes caracteristicas*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*Para que el cuerpo tenga un
+color plomo (el color no es plomo,
+solo es parecido, pero se ve como
+plomo xd)*/
+body {
+	background: #8C8C8C;
+}
+
+/*Para que el contenedor general
+tenga un ancho de 1000px*/
+.contenedor-general {
+	width: 1000px;
+	/*margin auto para que el contenedor
+	de 1000px se ubique en el centro*/
+	margin: auto;
+}
+
+/*Todos las etiquetas ul tendran
+las siguientes propiedades*/
+li {
+	/*Quitamos los estilos de las listas*/
+	list-style: none;
+}
+
+/*Todas las etiquetas h1 tendran
+las siguientes propiedades*/
+h1 {
+	/*Text centrado*/
+	text-align: center;
+	/*Color de la letra blanco*/
+	color: white;
+}
+
+.menu li a {
+	/*Color de la letra blanco*/
+	color: white;
+	/*Un relleno de 12 de alto
+	y 10 de ancho */
+	padding: 12px 10px;
+	/*Color del entorno negro*/
+	background: black;
+	/*Convertir en bloque (ya que
+	la etiqueta a es lineal)*/
+	display: block;
+	/*La decoracion de la etiqueta (es
+	un subrayado) estara desabilitada*/
+	text-decoration: none;
+}
+
+/*Todas las etiquetas li que estan directos
+dentro de la clase manu, van a tener las
+siguientes preopiedades*/
+.menu > li {
+	/*Para acomodar todos los bloques a
+	la izquierda*/
+	float: left;
+}
+
+/*Todas las etiquetas ul que estan dentro de
+una etiqueta li y que esta misma este dentro
+de una clase llamada menu. Van a tener
+las siguientes propiedades*/
+.menu li ul {
+	/*El bloque va a desaparecer*/
+	display: none;
+	/*Tendra una posicion absoluta*/
+	position: absolute;
+}
+
+/*Al pasar el puntero por la etiqueta a
+y que esta este dentro de una etiqueta li
+y que a su ves esten dentro de una clase
+llamada menu. Van a tener las siguientes
+propiedades.*/
+.menu li a:hover {
+	/*Su color de de relleno sera #434343*/
+	background: #434343;
+}
+
+/*Todas las etiquetas ul que estan directos
+dentro de la etiqueta li y a su ves estan
+dentro de la clase menu tendran las
+siguientes caracteristicas.*/
+/*Ademas, la etiqueta li al ser seleccionadas*/
+.menu li:hover > ul {
+	/*Los bloques del submenu apareceran*/
+	display: block;
+}
+
+/*La clase encabezado tendra las siguientes
+propiedades*/
+.encabezado {
+	/*Un relleno de 20px alrededor del
+	contenido*/
+	padding: 20px;
+	/*El relleno tendra un color
+	de rgba(0,0,0,1)*/
+	background: black;
+}
+
+/*La clase menu tendra las siguientes
+propiedades*/
+.menu {
+	/*El overflow sirve para resolver
+	el contenido excedente que genera
+	el float (el que usamos para desplazar
+	todos los bloques a la derecha)*/
+	overflow: hidden;
+}

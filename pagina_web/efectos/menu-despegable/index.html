@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu Despegable</title>
+	<!-- El meta viewport es para desabilitar el scroll -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Para relacionar el documento html al documento css -->
+	<link rel="stylesheet" href="css/index-diseno.css">
+</head>
+<body>
+	<!-- Contenedor donde colocaremos todo nuestro contenido -->
+	<div class="contenedor-general">
+		<!-- El encabezado (que usted visualizara de color negro) donde vera el titulo de su pagina y el menu desplegable -->
+		<header class="encabezado">
+			<!-- Titulo de la pagina -->
+			<h1>Menu Desplegable</h1>
+			<!-- Etiqueta que hace posible abrir el menu -->
+			<ul class="menu">
+				<!-- Las listas que se pudieron abrir gracias a la etiqueta anterior (en cada lista encontraremos una etiqueta a, esta nos permite abrir sea una pagina web, un archivo html, entre otros). -->
+				<li><a href="#">Inicio</a>
+					<!-- Usamos nuevamente esta etiqueta para abrir otro menu (en este caso se encuentra dentro de la etiqueta li, lo que quiere decir que este menu esta dentro de una lista. Convirtiendolo en un submenu) -->
+					<ul>
+						<li><a href="#">Submenu 1</a></li>
+						<li><a href="#">Submenu 2</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Efectos</a>
+					<ul>
+						<li><a href="#">Submenu 1</a></li>
+						<li><a href="#">Submenu 2</a></li>
+						<li><a href="#">Submenu 3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Videos</a>
+					<ul>
+						<li><a href="#">Submenu 1</a></li>
+						<li><a href="#">Submenu 2</a></li>
+						<li><a href="#">Submenu 3</a></li>
+						<li><a href="#">Submenu 4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</header>
+	</div>
+</body>
+</html>

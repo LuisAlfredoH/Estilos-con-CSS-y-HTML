@@ -1,0 +1,25 @@
+section {
+	font-family: 'Segoe UI';
+}
+
+.error-404 {
+	padding: 20px;
+	margin-top: 20px;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+.error-404 img {
+	width: 350px;
+}
+
+@media screen and (max-width: 390px) {
+	.error-404 img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.error-404 h2 {
+	font-size: 50px;
+}
