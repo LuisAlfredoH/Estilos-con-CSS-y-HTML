@@ -1,0 +1,130 @@
+/*Para que todas las etiquetas de
+html (incluyendo el body) tengan
+las siguientes caracteristicas*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*Para que el cuerpo tenga un
+color plomo (el color no es plomo,
+solo es parecido, pero se ve como
+plomo xd)*/
+body {
+	background: #8C8C8C;
+}
+
+/*Clase donde se encierra todo
+el contenido tendra las siguientes
+propiedades*/
+.contenedor-general {
+	width: 1000px;
+	/*Para centrarlo*/
+	margin: auto;
+	/*Un relleno de 20px*/
+	padding: 20px;
+}
+
+/*Clase donde se encierra todo el
+contenido de solo el acordeon*/
+.contenedor-acordeon {
+	/*Ancho del contenedor del acorderon*/
+	width: 1000px;
+	/*Para centrar el contenedor*/
+	margin: auto;
+}
+
+/*La etiqueta a tendra las
+siguientes propiedades*/
+a {
+	/*Para desaparecer el subrayado*/
+	text-decoration: none;
+	/*Para que la letra sea negra*/
+	color: black;
+	/*Para que la letra este en
+	negrita*/
+	font-weight: bold;
+}
+
+/*Todas las etiquetas li dentro de
+la clase menu tendran las
+siguientes preopiedades*/
+.menu li {
+	/*Para desaparecer el puntito
+	de cada lista*/
+	list-style: none;
+}
+
+/*La etiqueta p que esta dentro de la
+etiqueta li y a su ves dentro de la
+clase menu tendran las siguientes
+propiedades*/
+.menu li p {
+	/*Para que el parrafo desaparesca
+	una ves ejecutemos el codigo*/
+	display: none;
+	/*Borde de 1px con color negro en
+	la parte de abajo*/
+	border-bottom: 1px solid black;
+	/*Borde de 1px con color negro en
+	la parte derecha*/
+	border-right: 1px solid black;
+	/*Borde de 1px con color negro en
+	la parte izquierda*/
+	border-left: 1px solid black;
+	/*Un relleno de 10px de alto y 15px
+	de ancho*/
+	padding: 10px 15px;
+	/*El color del relleno tendra el
+	siguiente rgba*/
+	background: rgba(255,255,255,0.99);
+	/*Esta propiedad nos ayuda a
+	que las esquinas no sean
+	punteadas*/
+	border-radius: 5px;
+}
+
+/*La etiqueta a que esta dentro de la
+etiqueta li y a su ves dentro de la
+clase menu tendran las siguientes
+propiedades*/
+.menu li a {
+	/*La fuente tendra un alto de 20px*/
+	font-size: 20px;
+	/*Tendra un borde de 1px con el color
+	negro*/
+	border: 1px solid black;
+	/*Que se vuelva un bloque*/
+	display: block;
+	/*Relleno de 10px de alto y 15px de ancho*/
+	padding: 10px 15px;
+	/*El color del relleno tendra el
+	siguiente rgba*/
+	background: rgba(255,255,255,0.7);
+	/*Esta propiedad nos ayuda a
+	que las esquinas no sean
+	punteadas*/
+	border-radius: 5px;
+}
+
+/*La etiqueta li que esta dentro de la
+clase menu tendra las siguientes
+propiedades*/
+.menu li {
+	/*Un margen en la parte superior
+	de 3px*/
+	margin-bottom: 3px;
+	/*La fuente se cambiara a Segoe UI*/
+	font-family: 'Segoe UI';
+}
+
+/*Al pasar el puntero en la etiqueta
+a (que esta dentro de la etiqueta li
+y a su ves dentro de la clase menu)
+se ejecutara las siguiente propiedad*/
+.menu li a:hover {
+	/*El color de relleno de la etiqueta
+	a cambiara al siguiente rgba*/
+	background: rgba(255,255,255,0.9);
+}
