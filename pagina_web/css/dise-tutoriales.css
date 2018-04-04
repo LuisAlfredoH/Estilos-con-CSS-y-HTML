@@ -1,0 +1,47 @@
+.contraseña {
+	text-align: center;
+	font-weight: bold;
+}
+
+.main .descripcion-efecto {
+	padding: 20px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.main .video-tutorial .video-dimension {
+	max-width: 500px;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+.main .video-tutorial .video-dimension iframe {
+	width: 100%;
+	height: 270px;
+}
+
+.contenido-servidores {
+	width: 100%;
+	padding: 0px 10px 20px 10px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.contenido-servidores .video-tutorial {
+	text-align: center;
+}
+
+.video-tutorial p a {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+	.main .video-tutorial .video-dimension {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.comentarios-fb {
+	background: rgba(255,255,255,0.7);
+}
+
+/*CODIGO REALIZADO POR LUIS ALFREDO HUAMANI ALHUAY*/
